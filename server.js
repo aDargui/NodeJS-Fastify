@@ -17,8 +17,8 @@ fastify.get('/me', (request, reply) => {
     //(JavaScript Object Notation)
     return { 
         prenom: 'Abdallah',
-        nom: "Dargui",
-        job: "developpeur",
+        nom: "Dargui d",
+        job: "developpeur web",
      }
   })
 
