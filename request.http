@@ -37,4 +37,15 @@ GET http://localhost:3000/heroes/60e459d68977db0de65b3594
 GET http://localhost:3000/heroes/bio/60e459d68977db0de65b3594
 
 ###
-DELETE http://localhost:3000/heroes/bio/60e450d9cd7cd00d4cbd9134
+DELETE http://localhost:3000/heroes/60e450d9cd7cd00d4cbd9134
+
+###
+PATCH http://localhost:3000/heroes/60e5a6872294fd11cb9c3427
+Content-Type: application/json
+
+{
+	"name": "Batman Modif 3",
+	"biography.full-name": "Bruce Wayne 3"
+
+}
+
